@@ -1,0 +1,45 @@
+.download {
+  margin-top: 8rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.image_download {
+  background-color: RGB(37, 117, 237);
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+  z-index: -1;
+  margin-left: 6rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+}
+.image_download img {
+  position: relative;
+}
+.right_download {
+    margin-top: -7rem;
+  width: 40%;
+}
+.right_download span {
+  color: RGB(50, 117, 219);
+}
+.right_download h1 {
+  font-size: 46px;
+  color: RGB(39, 48, 68);
+  font-weight: 700;
+}
+.right_download p {
+    margin-top: 3rem;
+  font-size: 16px;
+  color: RGB(39, 48, 68);
+}
+.download_img{
+    margin-top: 3rem;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}

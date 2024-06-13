@@ -1,0 +1,22 @@
+.work{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.book_img{
+    width: 20%;
+}
+.boy_img{
+    width: 25%;
+}
+.girl_img{
+    width: 20%;
+}

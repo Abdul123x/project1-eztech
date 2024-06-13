@@ -1,0 +1,130 @@
+.internships {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.internship_card {
+  margin-top: 5rem;
+  height: 22rem;
+  width: 21rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  border-radius: 20px;
+  box-shadow: 0px 9px 5px -3px rgba(0,0,0,0.1),13px -7px 15px -10px rgba(0,0,0,0.1);
+
+}
+.internship_card:hover {
+  box-shadow: 1px 5px 32px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 32px 0px rgba(0, 0, 0, 0.75);
+}
+.internship_header {
+  height: 7rem;
+  width: 100%;
+  background: RGB(37, 117, 237);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2rem;
+  border-radius: 10px 10px 0 0;
+}
+.intern_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.internship_header img {
+  width: 20%;
+  margin-right: 1rem;
+}
+.internship_header p {
+  color: white;
+  margin-left: 1rem;
+  font-size: 25px;
+  font-weight: 600;
+  width: 30%;
+}
+.internship_employ > img {
+  width: 25px;
+}
+.internship_employ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.hybrid {
+  background: rgb(221, 234, 234);
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.location img {
+  width: 25px;
+}
+.jobtype {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.jobtype img {
+  width: 25px;
+}
+.internship_button {
+  margin: auto;
+}
+.button_readmore {
+  background-color: RGB(37, 117, 237);
+  color: white;
+  outline: none;
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  cursor: pointer;
+}
+.button_readmore:hover {
+  background-color: RGB(4, 45, 137);
+}
+.card_content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 1.3rem;
+  gap: 2rem;
+}
+.loadmore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+.loadbutton{
+  background-color:RGB(37, 117, 237) ;
+  height: 2rem;
+  outline: none;
+  border: none;
+  width: 7rem;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.loadbutton:hover{
+  background-color:  RGB(4, 45, 137);
+}
